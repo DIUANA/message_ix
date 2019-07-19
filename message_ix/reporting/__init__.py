@@ -59,6 +59,8 @@ PRODUCTS = (
         ('output', 'ACT')),
     ('in',
         ('input', 'ACT')),
+    ('rel',
+        ('relation_activity', 'ACT')),
     ('emi',
         ('emission_factor', 'ACT')),
     ('inv',
@@ -67,6 +69,12 @@ PRODUCTS = (
         ('fix_cost', 'CAP')),
     ('vom',
         ('var_cost', 'ACT')),
+    ('land_out',
+        ('land_output', 'LAND')),
+    ('land_use',  # TODO: better name!
+        ('land_use', 'LAND')),
+    ('land_emi',
+        ('land_emission', 'LAND')),
 )
 
 #: Other standard derived quantities.
